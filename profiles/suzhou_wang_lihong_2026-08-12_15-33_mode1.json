@@ -1,0 +1,29 @@
+{
+  "artist": "王力宏",
+  "event_keyword": "苏州站",
+  "selection_mode": 1,
+  "target_price": 780,
+  "screen_size": [1440, 3200],
+  "timeout": 60,
+  "queue_timeout": 180,
+  "artifacts": "artifacts/suzhou-wang-lihong-2026-08-12-15-33-mode1",
+  "sale_wait": {
+    "timeout": 1800,
+    "refresh_interval": 0.5,
+    "refresh_settle": 0.25,
+    "refresh_start": [720, 500],
+    "refresh_end": [720, 1800],
+    "refresh_duration_ms": 180,
+    "selector": {
+      "resource_id": "cn.damai:id/id_project_count_down_layout",
+      "confirm_count": 2,
+      "poll_interval_s": 0.01,
+      "refresh_interval_s": 10,
+      "refresh_stop_at_s": 2.0,
+      "t_fallback_ms": 150
+    }
+  },
+  "calibrated_points": {
+    "purchase": [898, 3082]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "artist": "李荣浩",
+  "event_keyword": "乌鲁木齐站",
+  "selection_mode": 1,
+  "target_price": 880,
+  "screen_size": [1440, 3200],
+  "timeout": 30,
+  "queue_timeout": 180,
+  "artifacts": "artifacts/wulumuqi-li-ronghao-2026-08-11-15-00-mode1",
+  "sale_wait": {
+    "timeout": 1800,
+    "refresh_interval": 0.5,
+    "refresh_settle": 0.25,
+    "refresh_start": [720, 500],
+    "refresh_end": [720, 1800],
+    "refresh_duration_ms": 180,
+    "selector": {
+      "resource_id": "cn.damai:id/id_project_count_down_layout",
+      "confirm_count": 2,
+      "poll_interval_s": 0.01,
+      "refresh_interval_s": 10,
+      "refresh_stop_at_s": 2.0,
+      "t_fallback_ms": 150
+    }
+  },
+  "session_index": 1,
+  "calibrated_points": {
+    "purchase": [898, 3082],
+    "session": [485, 1188],
+    "prices": {
+      "380": [368, 1162],
+      "400": [650, 1376],
+      "480": [368, 1590],
+      "500": [650, 1804],
+      "580": [368, 2018],
+      "680": [893, 2018],
+      "880": [281, 2232],
+      "1080": [719, 2232]
+    },
+    "moving_prices": {
+      "880": [281, 2661]
+    },
+    "replacement_prices": {
+      "380": [368, 1162],
+      "400": [650, 1376],
+      "480": [368, 1590],
+      "500": [650, 1804],
+      "580": [368, 2018],
+      "680": [980, 2018],
+      "880": [281, 2232],
+      "1080": [818, 2232]
+    },
+    "confirm": [1119, 3088],
+    "delays": {
+      "session_control_settle": 0.02,
+      "session_to_moving_price": 0.2,
+      "replacement_price_to_confirm": 0.2,
+      "price_layout_settle": 0.2,
+      "price_to_confirm": 0.1
+    }
+  }
+}

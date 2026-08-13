@@ -1,0 +1,6 @@
+.venv/
+.venv-phone/
+artifacts/
+__pycache__/
+*.pyc
+.reasonix/
