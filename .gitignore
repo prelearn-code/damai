@@ -1,6 +1,18 @@
+# ---- Python 环境与字节码 ----
 .venv/
 .venv-phone/
-artifacts/
 __pycache__/
 *.pyc
+
+# ---- 运行产物（截图 / UI XML / 日志 / 结果 JSON）----
+artifacts/
+
+# ---- 编辑器 / 工具元数据 ----
 .reasonix/
+
+# ---- EXE 构建相关代码与构建结果（不随仓库上传）----
+scripts/damai_mode0_gui.py
+scripts/build_damai_mode0_exe.ps1
+*.spec
+build/
+dist/
